@@ -1,0 +1,5 @@
+{
+  "schema": "pfgate.fixture_rules.v0",
+  "mandatory_constraints": ["gate_declared_allowance", "max_calls_per_minute"],
+  "required_evidence": ["receiver_receipt"]
+}

@@ -1,0 +1,5 @@
+{
+  "exit": 0,
+  "stderr": "",
+  "stdout": "{\n  \"schema\": \"assay.privileged_mcp_action.verify.report.v0\",\n  \"profile\": \"privileged-mcp-action/v1\",\n  \"profile_selection\": \"explicit\",\n  \"input_profile\": null,\n  \"input_profile_status\": \"undeclared_legacy\",\n  \"bundle_integrity\": \"pass\",\n  \"verdict\": \"valid\",\n  \"claims\": {\n    \"policy_decision_recorded\": {\n      \"status\": \"confirmed\",\n      \"source_class\": \"producer_reported\"\n    },\n    \"caller_visible_denial\": {\n      \"status\": \"incomplete\"\n    },\n    \"upstream_delivery\": {\n      \"status\": \"incomplete\"\n    },\n    \"external_side_effect\": {\n      \"status\": \"incomplete\"\n    }\n  },\n  \"findings\": [],\n  \"non_claims\": [\n    \"allow does not prove upstream delivery\",\n    \"deny does not establish maliciousness\",\n    \"caller-visible denial does not prove external side-effect absence\",\n    \"bundle integrity does not upgrade source class\"\n  ]\n}\n"
+}

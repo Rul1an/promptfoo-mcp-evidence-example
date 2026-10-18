@@ -1,0 +1,5 @@
+{
+  "schema": "pfgate.fixture_rules.v0",
+  "mandatory_constraints": ["gate_declared_allowance"],
+  "required_evidence": ["receiver_receipt"]
+}

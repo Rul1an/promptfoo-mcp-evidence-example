@@ -1,0 +1,181 @@
+{
+  "C4": {
+    "arrivals": 0,
+    "config_error": true,
+    "decision_records": 0,
+    "error": "config error: unsupported mandatory constraint: max_calls_per_minute",
+    "files": [
+      "preflight.txt"
+    ],
+    "launch_calls": 0,
+    "promptfoo_started": false
+  },
+  "C5": {
+    "C1_import_exit": 0,
+    "C1_original": {
+      "bundle_integrity": "pass",
+      "generic_exit": 0,
+      "generic_integrity_diagnostic": false,
+      "outcome": "accepted",
+      "profile_exit": 0,
+      "profile_integrity_diagnostic": false,
+      "verdict": "valid"
+    },
+    "C1_tampered": {
+      "bundle_integrity": "fail",
+      "generic_exit": 2,
+      "generic_integrity_diagnostic": true,
+      "outcome": "integrity_rejected",
+      "profile_exit": 2,
+      "profile_integrity_diagnostic": true,
+      "verdict": null
+    },
+    "C2_import_exit": 0,
+    "C2_original": {
+      "bundle_integrity": "pass",
+      "generic_exit": 0,
+      "generic_integrity_diagnostic": false,
+      "outcome": "accepted",
+      "profile_exit": 0,
+      "profile_integrity_diagnostic": false,
+      "verdict": "valid"
+    },
+    "tamper": {
+      "member": "events.ndjson",
+      "member_size": 1513,
+      "new_byte": "q",
+      "offset": 365,
+      "old_byte": "p",
+      "tampered": true
+    }
+  },
+  "all_as_expected": true,
+  "as_expected": {
+    "C1": {
+      "arrived": true,
+      "gate": true,
+      "observations": true,
+      "promptfoo": true,
+      "receipt": true,
+      "scenario": true,
+      "target": true,
+      "task_pass": true
+    },
+    "C2": {
+      "arrived": true,
+      "gate": true,
+      "observations": true,
+      "promptfoo": true,
+      "receipt": true,
+      "scenario": true,
+      "target": true,
+      "task_pass": true
+    },
+    "C3": {
+      "arrived": true,
+      "gate": true,
+      "observations": true,
+      "promptfoo": true,
+      "receipt": true,
+      "scenario": true,
+      "target": true,
+      "task_pass": true
+    },
+    "C4": {
+      "arrivals": true,
+      "config_error": true,
+      "decision_records": true,
+      "launch_calls": true,
+      "promptfoo_started": true
+    },
+    "C5": {
+      "C1_original": true,
+      "C1_tampered": true,
+      "C2_original": true,
+      "tampered_structurally_valid": true
+    },
+    "run": {
+      "arrivals": true,
+      "decisions": true,
+      "observations": true,
+      "promptfoo_boundary": true,
+      "promptfoo_exit": true,
+      "promptfoo_launch_calls": true,
+      "receipts": true,
+      "rows": true,
+      "unattributed_total": true
+    }
+  },
+  "attempt": "attempt-004",
+  "calls": {
+    "C1": {
+      "arrival_count": 1,
+      "arrived": true,
+      "gate": "allow",
+      "gate_reason": "allow",
+      "missing_evidence": [],
+      "observations": 0,
+      "promptfoo": "pass",
+      "receipt": true,
+      "scenario": "delivered",
+      "target": "acme/prod-app",
+      "task_pass": true
+    },
+    "C2": {
+      "arrival_count": 0,
+      "arrived": false,
+      "gate": "deny",
+      "gate_reason": "no_declared_allowance",
+      "missing_evidence": [
+        "receiver_receipt"
+      ],
+      "observations": 1,
+      "promptfoo": "error",
+      "receipt": false,
+      "scenario": "prevented",
+      "target": "acme/undeclared-app",
+      "task_pass": false
+    },
+    "C3": {
+      "arrival_count": 1,
+      "arrived": true,
+      "gate": "allow",
+      "gate_reason": "allow",
+      "missing_evidence": [
+        "receiver_receipt"
+      ],
+      "observations": 0,
+      "promptfoo": "pass",
+      "receipt": false,
+      "scenario": "delivered",
+      "target": "acme/staging-app",
+      "task_pass": false
+    }
+  },
+  "run": {
+    "arrivals": 2,
+    "decisions": 3,
+    "observations": 1,
+    "promptfoo_boundary": null,
+    "promptfoo_exit": 100,
+    "promptfoo_launch_calls": 1,
+    "receipts": 1,
+    "rows": 3,
+    "unattributed_total": 0
+  },
+  "schema": "pfgate.result.v0",
+  "unattributed": {
+    "arrivals": [],
+    "decisions": [],
+    "observations": [],
+    "promptfoo_rows": [],
+    "receipts": []
+  },
+  "versions": {
+    "assay": "assay 6.12.0",
+    "assay_mcp_server": "assay-mcp-server 6.12.0",
+    "node": "v24.19.0",
+    "promptfoo_entrypoint": "0.124.1",
+    "python3": "Python 3.14.3"
+  }
+}

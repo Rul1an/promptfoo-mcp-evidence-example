@@ -1,0 +1,137 @@
+{
+  "files": [
+    {
+      "path": "independent_reproducer.py",
+      "source_path": "independent_reproducer.py",
+      "source_sha256": "3498109e75202856c951c8006d4c562318fe1fd5b888a119e22ddc5caa8e9471",
+      "sha256": "3498109e75202856c951c8006d4c562318fe1fd5b888a119e22ddc5caa8e9471",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "fixtures/rules-supported.json",
+      "source_path": "fixtures/rules-supported.json",
+      "source_sha256": "3f6074c2c594d0e1c9e97966b45d5f0bb5489f72587b37839e663f83b11ef878",
+      "sha256": "3f6074c2c594d0e1c9e97966b45d5f0bb5489f72587b37839e663f83b11ef878",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "fixtures/rules-unsupported.json",
+      "source_path": "fixtures/rules-unsupported.json",
+      "source_sha256": "8e36008fc0a8c7a4b787ad16251e0f80bc70f7b01635d517f0cc9b17b0df22cf",
+      "sha256": "8e36008fc0a8c7a4b787ad16251e0f80bc70f7b01635d517f0cc9b17b0df22cf",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "result.json",
+      "source_path": "result.json",
+      "source_sha256": "ea6d35aa7096bf24255e98a6c67b81992a7080741c4be65d19d9a065fb77bf11",
+      "sha256": "ea6d35aa7096bf24255e98a6c67b81992a7080741c4be65d19d9a065fb77bf11",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "runs/attempt-004/decisions.ndjson",
+      "source_path": "runs/attempt-004/decisions.ndjson",
+      "source_sha256": "392817208bbdaa86a0150edead523fb3d5be77cba86ef1b89122abf04f2fb27b",
+      "sha256": "392817208bbdaa86a0150edead523fb3d5be77cba86ef1b89122abf04f2fb27b",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "runs/attempt-004/denied-observations.ndjson",
+      "source_path": "runs/attempt-004/denied-observations.ndjson",
+      "source_sha256": "241918f733a3e4c562bfbc4207c4b55be20211c3c5439203d419c8545b7ac389",
+      "sha256": "241918f733a3e4c562bfbc4207c4b55be20211c3c5439203d419c8545b7ac389",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "runs/attempt-004/arrivals.ndjson",
+      "source_path": "runs/attempt-004/arrivals.ndjson",
+      "source_sha256": "eeb0959170de9f6c3da974381de6c2f81a9c16d1eb1f9e49222c9e9dd397365c",
+      "sha256": "eeb0959170de9f6c3da974381de6c2f81a9c16d1eb1f9e49222c9e9dd397365c",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "runs/attempt-004/receipts.ndjson",
+      "source_path": "runs/attempt-004/receipts.ndjson",
+      "source_sha256": "103ccce6fbe7d60b446841c2db67dbf73be362fc80f10e7a5f7cdd73902d8b3a",
+      "sha256": "103ccce6fbe7d60b446841c2db67dbf73be362fc80f10e7a5f7cdd73902d8b3a",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "runs/attempt-004/bundle-C1.tar.gz",
+      "source_path": "runs/attempt-004/bundle-C1.tar.gz",
+      "source_sha256": "b89cd8acdd7cbd149b74953a891616d8a3e924370be074d4be44ef0a0c33e1e1",
+      "sha256": "b89cd8acdd7cbd149b74953a891616d8a3e924370be074d4be44ef0a0c33e1e1",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "runs/attempt-004/bundle-C1-tampered.tar.gz",
+      "source_path": "runs/attempt-004/bundle-C1-tampered.tar.gz",
+      "source_sha256": "4c8aca7400ad281827b9938e7b6aa05a63da280f91482c7e5290b77bb7b6b65a",
+      "sha256": "4c8aca7400ad281827b9938e7b6aa05a63da280f91482c7e5290b77bb7b6b65a",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "runs/attempt-004/bundle-C2.tar.gz",
+      "source_path": "runs/attempt-004/bundle-C2.tar.gz",
+      "source_sha256": "bf0accec97838f61edd53ff5e57bcc1c2303c4f8901aa0696009bb5c137abd65",
+      "sha256": "bf0accec97838f61edd53ff5e57bcc1c2303c4f8901aa0696009bb5c137abd65",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "runs/attempt-004/c4/preflight.txt",
+      "source_path": "runs/attempt-004/c4/preflight.txt",
+      "source_sha256": "7cde5c49c89a8cfecd11bcf734b2a8f74a3d9544b1d12edc3e7511f3969ca857",
+      "sha256": "7cde5c49c89a8cfecd11bcf734b2a8f74a3d9544b1d12edc3e7511f3969ca857",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "runs/attempt-004/results.jsonl",
+      "source_path": "runs/attempt-004/results.jsonl",
+      "source_sha256": "90302c3bfdc19ae6f21e8a4552ae96bdf1e36a752a8e48e953756dd36b58230f",
+      "sha256": "482c732062af1c6cf5e1e6529e2f349f3a02cba60dea9ac8ec8a089c7863d88d",
+      "transformation": "Projection: testCase.description, success, error only; not original raw export"
+    },
+    {
+      "path": "runs/attempt-004/c5-verify-generic-C1-original.json",
+      "source_path": "runs/attempt-004/c5-verify-generic-C1-original.json",
+      "source_sha256": "d0f1137161442cc3e2818eb42e8a2d81fa9848031ce69940b925c58a722eb45a",
+      "sha256": "028f9d86d2862da199f1d50ac9221d2bea01514017040c6c8a9fcdf8ecc8b8e9",
+      "transformation": "Projection: exit, stdout, stderr only; command paths omitted; original attempt absolute path replaced with <retained-attempt> in diagnostics"
+    },
+    {
+      "path": "runs/attempt-004/c5-verify-generic-C1-tampered.json",
+      "source_path": "runs/attempt-004/c5-verify-generic-C1-tampered.json",
+      "source_sha256": "063e3df4045ecd1aefdf48f3709d3a16b853b524bc1766b58bbc3a013f9ebab5",
+      "sha256": "ca13b0a007ed2a6dcb20b1cfba31c99156a06e03f9a72e5f1ae6e1ad884bc363",
+      "transformation": "Projection: exit, stdout, stderr only; command paths omitted; original attempt absolute path replaced with <retained-attempt> in diagnostics"
+    },
+    {
+      "path": "runs/attempt-004/c5-verify-generic-C2-original.json",
+      "source_path": "runs/attempt-004/c5-verify-generic-C2-original.json",
+      "source_sha256": "fe14543fbffa8a280a821e869b51f6861c734e85d3787f71200ea4797ba54db8",
+      "sha256": "09bdf159bd7e813aaaa99d8ea3706e91c57ddb20eac27ed01bfb8f46d66a1ea4",
+      "transformation": "Projection: exit, stdout, stderr only; command paths omitted; original attempt absolute path replaced with <retained-attempt> in diagnostics"
+    },
+    {
+      "path": "runs/attempt-004/c5-verify-profile-C1-original.json",
+      "source_path": "runs/attempt-004/c5-verify-profile-C1-original.json",
+      "source_sha256": "250d867ea89fee6e5b05c6a506d79fe6ae37fcd8562f399b196905e2481aaa35",
+      "sha256": "f186ea6c032d492b1916586a58fa9d56a56c7ae3a9d701f08b1363818e82870c",
+      "transformation": "Projection: exit, stdout, stderr only; command paths omitted; original attempt absolute path replaced with <retained-attempt> in diagnostics"
+    },
+    {
+      "path": "runs/attempt-004/c5-verify-profile-C1-tampered.json",
+      "source_path": "runs/attempt-004/c5-verify-profile-C1-tampered.json",
+      "source_sha256": "267fa160e0fc41fb2c65fceb2206a97e36312dc5562e2dd6ab91df75fc81ddde",
+      "sha256": "6f19761f93e353abe06ebed19061d6e2b77c6299b423ba0f547d7dba3747357b",
+      "transformation": "Projection: exit, stdout, stderr only; command paths omitted; original attempt absolute path replaced with <retained-attempt> in diagnostics"
+    },
+    {
+      "path": "runs/attempt-004/c5-verify-profile-C2-original.json",
+      "source_path": "runs/attempt-004/c5-verify-profile-C2-original.json",
+      "source_sha256": "34e3f6a8f5c85b4b33e1387b4df567d82af2a5f953273f522ae3df4f7c66e3fa",
+      "sha256": "b920872055b918da4e4cef7d4cd7b9c59fadc5e3573346025fdc6d97831b58d4",
+      "transformation": "Projection: exit, stdout, stderr only; command paths omitted; original attempt absolute path replaced with <retained-attempt> in diagnostics"
+    }
+  ]
+}

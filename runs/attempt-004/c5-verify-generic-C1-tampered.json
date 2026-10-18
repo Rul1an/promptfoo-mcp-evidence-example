@@ -1,0 +1,5 @@
+{
+  "exit": 2,
+  "stderr": "fatal: bundle verification failed\n\nCaused by:\n    Integrity: Content hash mismatch at seq 0 (IntegrityEventHash)\n",
+  "stdout": ""
+}
